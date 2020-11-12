@@ -1692,3 +1692,9 @@ input, select, textarea {
 			pointer-events: none;
 		}
 	}
+
+/*fontawesome icon*/
+
+.fa-headphones-alt{
+	font-size: 2em;
+}
