@@ -1656,3 +1656,39 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/*Form status bar */
+
+	#status{
+		width: 50%;
+		max-width: 500px;
+		text-align:left;
+		padding: 10px;
+		margin: 0 auto;
+		border-radius: 8px;
+	}
+
+	#status.success{
+		background-color: white;
+		animation: status 4s ease forwards;
+	}
+
+	#status.success{
+		background-color: white;
+		animation: status 4s ease forwards;
+	}
+
+	@keyframes status{
+		0%{
+			opacity:1;
+			pointer-events: all;
+		}
+		0%{
+			opacity:1;
+			pointer-events: all;
+		}
+		100%{
+			opacity:0;
+			pointer-events: none;
+		}
+	}
